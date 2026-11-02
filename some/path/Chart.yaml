@@ -1,0 +1,7 @@
+apiVersion: v2
+name: chart-with-private-deps
+version: 0.1.0
+dependencies:
+  - name: my-private-chart
+    version: 0.1.0
+    repository: oci://ghcr.io/shimagrawal/charts
